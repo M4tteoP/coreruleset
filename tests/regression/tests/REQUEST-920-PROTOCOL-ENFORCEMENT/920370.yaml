@@ -3,7 +3,7 @@ meta:
   author: csanders-git
   description: None
   # PCRE limits need to be set higher to process this
-  enabled: false
+  enabled: true
   name: 920370.yaml
 tests:
   - test_title: 920370-1

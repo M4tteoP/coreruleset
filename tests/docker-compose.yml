@@ -22,6 +22,8 @@ services:
       MODSEC_RESP_BODY_ACCESS: "On"
       MODSEC_RESP_BODY_MIMETYPE: "text/plain text/html text/xml application/json"
       MAX_FILE_SIZE: "64100"
+      ARG_LENGTH: "400"
+      TOTAL_ARG_LENGTH: "64000"
       COMBINED_FILE_SIZES: "65535"
       CRS_ENABLE_TEST_MARKER: 1
       VALIDATE_UTF8_ENCODING: 1
